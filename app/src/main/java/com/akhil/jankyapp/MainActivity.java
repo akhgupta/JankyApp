@@ -19,12 +19,14 @@ public class MainActivity extends BaseAppCompatActivity {
             AsyncTaskActivity.class.getSimpleName(),
             LeakyHandlerActivity.class.getSimpleName(),
             HandlerActivity.class.getSimpleName(),
+            LeakyStaticViewActivity.class.getSimpleName(),
     };
     final Class [] activitiesClasses = {
             LeakyAsyncTaskActivity.class,
             AsyncTaskActivity.class,
             LeakyHandlerActivity.class,
             HandlerActivity.class,
+            LeakyStaticViewActivity.class,
     };
 
     @Override
